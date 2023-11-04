@@ -1,0 +1,727 @@
+.aboutus-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid black; */
+    margin: 20px 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.aboutus-vegan-glory{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* border: 5px solid green; */
+    /* background: url("./../media/pexels-shamia-casiano-2015097.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+.aboutus-vegan-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    /* border: 5px solid green; */
+    padding: 10px;
+    height: 300px;
+    /* box-shadow: 10px black; */
+    box-shadow: 0 0 10px black;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+
+}
+
+.aboutus-vegan-glory-title{
+    font-size: 45px;
+    font-weight: bolder;
+    /* border: 3px solid black; */
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.aboutus-vegan-glory-title2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.aboutus-illustration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 0px;
+    background: green;
+    color: black;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 5px black);
+}
+.aboutus-illustration img{
+    width: 100%;
+}
+
+.aboutus-vegan-glory-mission{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 5px solid orangered; */
+    margin: 20px 0px;
+    padding: 10px;
+
+}
+
+.aboutus-mission{
+    /* border: 3px solid red; */
+    width: 50%;
+    margin-right: 20px;
+}
+
+.aboutus-vegan-glory-title2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.aboutus-vegan-glory-title3{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.aboutus-paragraph1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 3px solid blue; */
+}
+
+.aboutus-vegan-glory-text1{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.aboutus-vegan-glory-text2{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.aboutus-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid tomato; */
+    width: 100%;
+    padding: 10px;
+}
+.aboutus-card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 5px solid tomato; */
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+.aboutus-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 250px;
+    border: 5px solid green;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 25px;
+    box-shadow: 0 0 8px black;
+    background: url("./../media/pexels-shamia-casiano-2015097.jpg");
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 1s ease;
+    filter: drop-shadow(0 0 0.5px black)
+
+}
+.aboutus-paragraph:hover{
+    
+    border-radius: 25px;
+    box-shadow: 0 0 8px rgb(1, 19, 1);
+    mix-blend-mode: difference;
+    background: url("./../media/pexels-ella-olsson-1640777.jpg");
+    color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
+    
+}
+
+
+/* media query for phones */
+@media screen and (max-width: 767px){
+    
+    .aboutus-vegan-glory{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* border: 5px solid green; */
+        /* background: url("./../media/pexels-shamia-casiano-2015097.jpg"); */
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 20px;
+    }
+
+    .aboutus-vegan-title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        /* border: 5px solid green; */
+        padding: 10px;
+        height: 500px;
+        /* box-shadow: 10px black; */
+        box-shadow: 0 0 10px black;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .aboutus-vegan-glory-title{
+        font-size: 55px;
+        font-weight: bolder;
+        /* border: 3px solid black; */
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+    
+    .aboutus-vegan-glory-title2{
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .aboutus-illustration{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        background: green;
+        color: black;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 5px black);
+    }
+    .aboutus-illustration img{
+        width: 100%;
+    }
+    
+    .aboutus-vegan-glory-mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid white;
+        background: green;
+        box-shadow: 0 0 5px black;
+        border-radius: 25px;
+        padding: 10px;
+    
+    }
+    
+    .aboutus-mission{
+        /* border: 3px solid red; */
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        text-align: center;
+        /* font-size: 30px; */
+    }
+    
+    .aboutus-vegan-glory-title2{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+    .aboutus-vegan-glory-title3{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+    
+    .aboutus-paragraph1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        filter: drop-shadow(0 0 5px white);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* border: 3px solid blue; */
+    }
+    
+    .aboutus-vegan-glory-text1{
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .aboutus-vegan-glory-text2{
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .aboutus-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 5px solid tomato; */
+        width: 100%;
+        padding: 10px;
+    }
+    .aboutus-card1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 5px solid tomato; */
+        width: 100%;
+        padding: 10px;
+        
+    }
+    
+    
+    .aboutus-paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        border: 5px solid white;
+        padding: 20px;
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 25px;
+        box-shadow: 0 0 8px black;
+        background: url("./../media/pexels-shamia-casiano-2015097.jpg");
+        color: white;
+        background-size: cover;
+        background-attachment: fixed;
+        transition: all 1s ease;
+        filter: drop-shadow(0 0 0.5px black);
+        margin-bottom: 20px;
+    
+    }
+    .aboutus-paragraph:hover{
+        
+        border-radius: 25px;
+        box-shadow: 0 0 8px rgb(1, 19, 1);
+        mix-blend-mode: difference;
+        background: url("./../media/pexels-ella-olsson-1640777.jpg");
+        color: black;
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: center;
+        
+    }
+    
+}
+
+/* media query for tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .aboutus-vegan-glory{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* border: 5px solid green; */
+        /* background: url("./../media/pexels-shamia-casiano-2015097.jpg"); */
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 20px;
+    }
+
+    .aboutus-vegan-title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        border: 5px solid green;
+        padding: 10px;
+        height: 500px;
+        /* box-shadow: 10px black; */
+        box-shadow: 0 0 10px black;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .aboutus-vegan-glory-title{
+        font-size: 55px;
+        font-weight: bolder;
+        /* border: 3px solid black; */
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+    
+    .aboutus-vegan-glory-title2{
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .aboutus-illustration{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 850px;
+        background: green;
+        color: black;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 5px black);
+    }
+    .aboutus-illustration img{
+        width: 100%;
+    }
+    
+    .aboutus-vegan-glory-mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid white;
+        padding: 10px;
+        background: green;
+        color: white;
+        border-radius: 25px;
+        box-shadow: 0 0 5px black;
+    }
+    
+    .aboutus-mission{
+        /* border: 3px solid white; */
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    .aboutus-vegan-glory-title2{
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+    .aboutus-vegan-glory-title3{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+    
+    .aboutus-paragraph1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* border: 3px solid blue; */
+    }
+    
+    .aboutus-vegan-glory-text1{
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .aboutus-vegan-glory-text2{
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .aboutus-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 5px solid tomato; */
+        width: 100%;
+        padding: 10px;
+    }
+    .aboutus-card1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 5px solid tomato; */
+        width: 100%;
+        padding: 10px;
+        
+    }
+    
+    
+    .aboutus-paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 450px;
+        border: 5px solid white;
+        padding: 20px;
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 25px;
+        box-shadow: 0 0 8px black;
+        background: url("./../media/pexels-shamia-casiano-2015097.jpg");
+        color: white;
+        background-size: cover;
+        background-attachment: fixed;
+        transition: all 1s ease;
+        filter: drop-shadow(0 0 0.5px black);
+        margin-bottom: 20px;
+    
+    }
+    .aboutus-paragraph:hover{
+        
+        border-radius: 25px;
+        box-shadow: 0 0 8px rgb(1, 19, 1);
+        mix-blend-mode: difference;
+        background: url("./../media/pexels-ella-olsson-1640777.jpg");
+        color: black;
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: center;
+        
+    }
+    
+}
+
+/* media query for desktop */
+@media screen and (min-width: 1025px) {
+    .aboutus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 5px solid black; */
+        margin: 20px 0px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .aboutus-vegan-glory{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        border: 5px solid green;
+        /* background: url("./../media/pexels-shamia-casiano-2015097.jpg"); */
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 20px;
+    }
+    
+    .aboutus-vegan-title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        border: 5px solid green;
+        padding: 10px;
+        height: 300px;
+        /* box-shadow: 10px black; */
+        box-shadow: 0 0 10px black;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        margin-right: 20px;
+    
+    }
+    
+    .aboutus-vegan-glory-title{
+        font-size: 45px;
+        font-weight: bolder;
+        /* border: 3px solid black; */
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+    
+    .aboutus-vegan-glory-title2{
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .aboutus-illustration{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-left: 10px;
+        background: green;
+        color: black;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 5px black);
+    }
+    .aboutus-illustration img{
+        width: 100%;
+    }
+    
+    .aboutus-vegan-glory-mission{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 5px solid white;
+        margin: 20px 0px;
+        padding: 10px;
+        background: green;
+        border-radius: 25px;
+        box-shadow: 0 0 5px black;
+    }
+    
+    .aboutus-mission{
+        /* border: 3px solid red; */
+        width: 50%;
+        margin-right: 20px;
+        text-align: center;
+        color: white;
+    }
+    
+    .aboutus-vegan-glory-title2{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+    }
+    .aboutus-vegan-glory-title3{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+    }
+    
+    .aboutus-paragraph1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 50px;
+        /* border: 3px solid blue; */
+    }
+    
+    .aboutus-vegan-glory-text1{
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 50px;
+    }
+    .aboutus-vegan-glory-text2{
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 50px;
+    }
+    .aboutus-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 5px solid tomato; */
+        width: 100%;
+        padding: 10px;
+    }
+    .aboutus-card1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 5px solid tomato; */
+        width: 100%;
+        padding: 10px;
+        
+    }
+    
+    
+    .aboutus-paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 450px;
+        /* border: 5px solid green; */
+        padding: 20px;
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 25px;
+        box-shadow: 0 0 8px black;
+        background: url("./../media/pexels-shamia-casiano-2015097.jpg");
+        color: white;
+        background-size: cover;
+        background-attachment: fixed;
+        transition: all 1s ease;
+        filter: drop-shadow(0 0 0.5px black)
+    
+    }
+    .aboutus-paragraph:hover{
+        
+        border-radius: 25px;
+        box-shadow: 0 0 8px rgb(1, 19, 1);
+        mix-blend-mode: difference;
+        background: url("./../media/pexels-ella-olsson-1640777.jpg");
+        color: black;
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: center;
+        
+    }
+}

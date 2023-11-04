@@ -1,0 +1,163 @@
+
+
+.bgcontainer{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    background: url("./../media/pexels-ella-olsson-1640777.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 100% 100%); */
+    /* background-position: top center; */
+    /* backdrop-filter: red; */
+    /* border: 3px solid red; */
+}
+
+ 
+.description{
+ width: 100%;
+ height: 30vh; 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ /* border: 10px solid rgb(14, 2, 79); */
+ align-items: center;
+ color: var(--primary);
+ /* background: url(./../bgvideo.mp4); */
+}
+
+/* media query for phones */
+@media screen and (max-width: 767px){
+    
+    .bgcontainer{
+        top: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 100%;
+        background: url("./../media/pexels-ella-olsson-1640777.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        /* clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 100% 100%); */
+        /* background-position: top center; */
+        /* backdrop-filter: red; */
+        /* border: 3px solid red; */
+    }
+
+    
+    .description{
+    width: 100%;
+    height: 30vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 10px solid rgb(14, 2, 79); */
+    align-items: center;
+    color: var(--primary);
+    padding: 10px;
+    /* background: url(./../bgvideo.mp4); */
+    }
+
+    .welcome{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-bottom: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+}
+
+/* media query for tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .bgcontainer{
+        top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 100%;
+        background: url("./../media/pexels-ella-olsson-1640777.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        /* clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 100% 100%); */
+        /* background-position: top center; */
+        /* backdrop-filter: red; */
+        /* border: 3px solid red; */
+    }
+
+    
+    .description{
+    width: 100%;
+    height: 30vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 10px solid rgb(14, 2, 79); */
+    align-items: center;
+    color: var(--primary);
+    /* background: url(./../bgvideo.mp4); */
+    }
+
+    .welcome{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+}
+
+/* media query for desktop */
+@media screen and (min-width: 1025px) {
+    
+    .bgcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 100%;
+        background: url("./../media/pexels-taryn-elliott-4099235.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right center;
+        /* background-position: top center; */
+        /* clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 100% 100%); */
+        /* background-position: top center; */
+        /* backdrop-filter: red; */
+        /* border: 3px solid red; */
+    }
+
+    
+    .description{
+    width: 100%;
+    height: 30vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 10px solid rgb(14, 2, 79); */
+    align-items: center;
+    color: var(--white);
+    /* background: url(./../bgvideo.mp4); */
+    }
+
+    .welcome{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+}
